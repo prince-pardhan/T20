@@ -9,9 +9,14 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@base44/sdk": "^0.8.53",
+    "@mantine/core": "^9.7.1",
+    "@mantine/hooks": "^9.7.1",
+    "@tabler/icons-react": "^3.49.0",
     "next": "16.4.0",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
@@ -20,6 +25,9 @@
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.4.0",
+    "postcss": "^8.5.29",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
     "tailwindcss": "^4",
     "typescript": "^5"
   }
